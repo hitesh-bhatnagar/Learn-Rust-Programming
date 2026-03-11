@@ -50,8 +50,8 @@ fn main() {
     
     // PART5 : Constants
     
-    const euler_num: f32 = 2.71828;
-    println!("Max euler_num= {}", euler_num );
+    const EULER_NUM: f32 = 2.71828;
+    println!("Max euler_num= {}", EULER_NUM );
     
     
     
