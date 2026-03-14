@@ -1,52 +1,91 @@
 # Learn Rust Programming
 
-An open-source repository to learn **Rust programming from beginner to advanced** through clear examples and small projects.
+⭐ A structured open-source repository to learn **Rust from beginner to advanced** through examples, projects, and ecosystem exploration.
 
-The goal of this project is to create a **simple, practical learning path for Rust** without heavy theory — just clear explanations and code.
+![Rust](https://img.shields.io/badge/Rust-Learning-orange)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-success)
+
+---
+
+# About This Repository
+
+This project aims to build a **complete Rust learning resource** for developers.
+
+Many Rust learning materials focus heavily on theory.
+This repository focuses on **practical learning through clear code examples and projects**.
+
+You will learn Rust through:
+
+* Simple examples
+* Well-commented code
+* Mini projects
+* Ecosystem exploration
+* Open-source collaboration
 
 ---
 
 # What You Will Learn
 
-This repository will cover:
+This repository covers Rust step by step:
 
-* Rust Basics
+### Rust Fundamentals
+
 * Variables and Data Types
 * Functions
+* Control Flow
 * Ownership and Borrowing
 * Structs and Enums
 * Error Handling
+* Modules
+
+### Intermediate Rust
+
+* Generics
+* Traits
 * Collections
+* Iterators
+* Lifetimes
+
+### Advanced Rust
+
 * Concurrency
-* Async Rust
-* Systems Programming
-* Web Development with Rust
-* WebAssembly
-* Embedded Rust
+* Async Programming
+* Unsafe Rust
+* Memory Management
+* FFI
 
 ---
 
 # Repository Structure
 
+```
+Learn-Rust-Programming
+│
+README.md
+Cargo.toml
+LICENSE
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+│
 examples/
-
-01_variables.rs
-02_functions.rs
-03_ownership_and_borrowing.rs
-04_structs_enums.rs
-05_error_handling.rs
-
-Each file contains **well-commented Rust code explaining a concept**.
+│
+│   fundamentals/
+│   ecosystem/
+│   projects/
+│
+docs/
+│
+│   fundamentals.md
+│   ecosystem.md
+│   projects.md
+│   roadmap.md
+```
 
 ---
 
-# How to Run the Examples
-
-Install Rust first:
-
-```
-https://rustup.rs
-```
+# Running the Examples
 
 Clone the repository:
 
@@ -58,20 +97,74 @@ cd Learn-Rust-Programming
 Run an example:
 
 ```
-cargo run --example 01_variables
+cargo run --example example_name
+```
+
+Example:
+
+```
+cargo run --example variables
 ```
 
 ---
 
-# Who Is This For?
+# Learning Roadmap
 
-This repository is helpful for:
+```
+Rust Basics
+      ↓
+Ownership & Borrowing
+      ↓
+Structs & Enums
+      ↓
+Error Handling
+      ↓
+Collections & Iterators
+      ↓
+Concurrency & Async
+      ↓
+Rust Projects
+      ↓
+Rust Ecosystem
+```
 
-* beginners learning Rust
-* programmers switching to Rust
-* systems programmers
-* backend developers
-* embedded developers
+---
+
+# Rust Projects (Planned)
+
+This repository will include practical Rust projects:
+
+### Beginner
+
+* CLI Calculator
+* Password Generator
+* File Organizer
+* Todo CLI
+
+### Intermediate
+
+* HTTP Server
+* Chat Server
+* URL Shortener
+
+### Advanced
+
+* Redis Clone
+* Distributed Key Value Store
+* Database Engine
+
+---
+
+# Rust Ecosystem Topics
+
+The repository will also explore Rust in different domains:
+
+* CLI Tools
+* Web Development
+* WebAssembly
+* Embedded Systems
+* Systems Programming
+* Networking
 
 ---
 
@@ -81,29 +174,49 @@ Contributions are welcome!
 
 You can help by:
 
-* adding new Rust examples
-* improving explanations
-* fixing bugs
-* adding mini projects
+* Adding Rust examples
+* Improving explanations
+* Creating mini projects
+* Fixing issues
+* Improving documentation
 
 Please read **CONTRIBUTING.md** before submitting a pull request.
 
 ---
 
-# Future Topics
+# Good First Issues
 
-Planned additions:
+If you're new to open source, check issues labeled:
 
-* Rust CLI projects
-* Rust networking examples
-* Rust web development
-* Rust for embedded systems
-* Rust for WebAssembly
+```
+good first issue
+```
+
+These are beginner-friendly tasks.
 
 ---
 
 # License
 
-This project will be licensed under the MIT License.
+This project is licensed under the MIT License.
 
-⭐ If you find this repository helpful, please star it!
+See the LICENSE file for details.
+
+---
+
+# Support the Project
+
+If you find this repository helpful:
+
+⭐ Star the repository
+🍴 Fork it
+📢 Share it with others
+
+---
+
+# Author
+
+Created by **Hitesh Bhatnagar**
+
+GitHub:
+https://github.com/hitesh-bhatnagar
