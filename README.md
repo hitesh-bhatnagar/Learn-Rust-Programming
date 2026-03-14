@@ -216,7 +216,4 @@ If you find this repository helpful:
 
 # Author
 
-Created by **Hitesh Bhatnagar**
-
-GitHub:
-https://github.com/hitesh-bhatnagar
+Created by **By the Community, for the Community.**
