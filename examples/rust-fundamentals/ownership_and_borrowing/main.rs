@@ -1,5 +1,3 @@
-// RUN THE CODE - cargo run --example 03_ownership_and_borrowing
-
 use std::io;
 
 fn get_length(s: &String) -> usize {

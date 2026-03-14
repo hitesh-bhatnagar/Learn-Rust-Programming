@@ -1,4 +1,3 @@
-// TO RUN THE FILE : cargo run --example 02_functions
 // use std::io;
 use std::io::{self, Write};
 

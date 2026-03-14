@@ -1,5 +1,3 @@
-// TO RUN THE EXAMPLE : cargo run --example 01_variables
-
 fn main() {
     
     // PART 1 : Immutable vs Mutable Variables
