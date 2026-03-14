@@ -105,3 +105,5 @@ Planned additions:
 # License
 
 This project will be licensed under the MIT License.
+
+⭐ If you find this repository helpful, please star it!
