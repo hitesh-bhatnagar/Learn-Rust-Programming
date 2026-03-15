@@ -1,6 +1,13 @@
-[package]
-name = "hello_rust"
+[workspace]
+resolver = "2"
+
+# This automatically finds every project in the Ecosystem and Projects folders
+members = [
+    "Rust_Ecosystem/*/*",
+    "Rust_Projects/*",
+]
+
+[workspace.package]
 version = "0.1.0"
 edition = "2024"
-
-[dependencies]
+authors = ["Hitesh Bhatnagar"]
