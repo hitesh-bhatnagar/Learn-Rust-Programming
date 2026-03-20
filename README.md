@@ -214,6 +214,14 @@ If you find this repository helpful:
 
 ---
 
+## ✅ CI Status
+All pull requests are automatically checked for:
+- Build errors
+- Formatting
+- Linting (Clippy)
+
+---
+
 # Author
 
 Created by **By the Community, for the Community.**
