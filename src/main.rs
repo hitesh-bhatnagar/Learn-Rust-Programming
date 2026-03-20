@@ -1,4 +1,4 @@
-fn main(){
+fn main() {
     /*
      * Run examples for each topic to learn and see the results.
      */
