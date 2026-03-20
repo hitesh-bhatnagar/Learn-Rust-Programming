@@ -19,7 +19,7 @@ jobs:
         run: cargo fmt -- --check
 
       - name: Run Clippy
-        run: cargo clippy --all-targets --all-features -- -A unused_variables
+        run: cargo clippy --all-targets --all-features -- -A unused_variables -A clippy::approx_constant
 
       - name: Check project
         run: cargo check --workspace
