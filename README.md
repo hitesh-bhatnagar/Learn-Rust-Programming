@@ -58,34 +58,23 @@ This repository covers Rust step by step:
 
 ---
 
-# Repository Structure
+
+# ⚡ Getting Started
+
+## 🔧 Prerequisites
+
+Install Rust:
+
+👉 https://rustup.rs
+
+Verify installation:
 
 ```
-Learn-Rust-Programming
-│
-README.md
-Cargo.toml
-LICENSE
-CONTRIBUTING.md
-CODE_OF_CONDUCT.md
-│
-examples/
-│
-│   fundamentals/
-│   ecosystem/
-│   projects/
-│
-docs/
-│
-│   fundamentals.md
-│   ecosystem.md
-│   projects.md
-│   roadmap.md
+rustc --version
+cargo --version
 ```
 
----
-
-# Running the Examples
+# How to Run Code
 
 Clone the repository:
 
@@ -94,7 +83,7 @@ git clone https://github.com/hitesh-bhatnagar/Learn-Rust-Programming
 cd Learn-Rust-Programming
 ```
 
-Run an example:
+### Run an example:
 
 ```
 cargo run --example example_name
@@ -106,26 +95,42 @@ Example:
 cargo run --example variables
 ```
 
+### Run Projects
+
+Projects are full Rust applications inside 'Rust_Projects/'
+
+Create a new project
+```
+cd Rust_Projects
+cargo new project_name
+cargo run -p project_name
+```
+
+To Run an existing project
+```
+cargo run -p project_name
+```
+
 ---
 
 # Learning Roadmap
 
 ```
-Rust Basics
+Rust Basics (Variables, Data Types, Functions, Control Flow ...)
       ↓
-Ownership & Borrowing
+Core Rust (Ownership, Borrowing, Lifetimes...)
       ↓
-Structs & Enums
+Standard Library (Vec, HashMap, Strings, File Handling...)
       ↓
-Error Handling
+Systems Programming (Threads, Concurrency, Memory Management...)
       ↓
 Collections & Iterators
       ↓
 Concurrency & Async
       ↓
-Rust Projects
+Rust Projects (CLI tools, HTTP Server...)
       ↓
-Rust Ecosystem
+Rust Ecosystem (Embedded Systems, Blockchain, Development, CLI Tools...)
 ```
 
 ---
@@ -179,6 +184,7 @@ You can help by:
 * Creating mini projects
 * Fixing issues
 * Improving documentation
+* Help build Rust Ecosystem
 
 Please read **CONTRIBUTING.md** before submitting a pull request.
 
