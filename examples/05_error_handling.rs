@@ -36,7 +36,7 @@ enum AppError {
 impl std::fmt::Display for AppError {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
         match self {
-            AppError::NotFound(e) => write!(f, "Not found: {}", s),
+            AppError::NotFound(e) => write!(f, "Not found: {}", e),
             AppError::ParseFailed(s) => write!(f, "Parse failed: {}", s),
             AppError::DivisionByZero => write!(f, "Cannot divide by zero"),
         }
@@ -57,7 +57,7 @@ fn main(){
     
     // PART - 2: match - full control over Ok and Err
     
-    match divide (10.0/2){
+    match divide (10.0, 2.0){
         Ok(result) => println!("10/2 = {}", result),
         Err(e) => println!("Error: {}", e),
     }
