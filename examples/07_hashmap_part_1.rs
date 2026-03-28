@@ -2,7 +2,7 @@ use std::collections::HashMap;
 
 fn main() {
     let mut scores: HashMap<String, i32> = HashMap::new();
-    println!("empty map: {:?}, scores");
+    println!("empty map: {:?}", scores);
 
     // PART 2: Insert, Get, Remove
 
@@ -77,7 +77,7 @@ fn main() {
     }
 
     // Loop over just values
-    prontln!("values: ");
+    println!("values: ");
     for value in ages.values() {
         println!("	{}", value);
     }
