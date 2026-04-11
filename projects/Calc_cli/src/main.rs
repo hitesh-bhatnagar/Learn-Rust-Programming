@@ -1,5 +1,8 @@
 use std::env;	// gives all cli args
 
+// to run the program 
+//		cargo run -- 6.9 + 6.9
+
 fn help(){
 	println!("Usage: Calc_cli <number1> <operator> <number2> ");
 	println!("Examples : Calc_cli 5 + 3");
